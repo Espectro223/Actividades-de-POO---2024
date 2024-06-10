@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Formulario</class>
+ <widget class="QWidget" name="Formulario">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Formulario</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QComboBox" name="tipoInstrumentoComboBox">
+     <item>
+      <property name="text">
+       <string>Guitarra</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Viento</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Teclado</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="marcaLineEdit">
+     <property name="placeholderText">
+      <string>Marca</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="precioLineEdit">
+     <property name="placeholderText">
+      <string>Precio</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="cantidadCuerdasLineEdit">
+     <property name="placeholderText">
+      <string>Cantidad de Cuerdas</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="cantidadTeclasLineEdit">
+     <property name="placeholderText">
+      <string>Cantidad de Teclas</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="metalUsadoLineEdit">
+     <property name="placeholderText">
+      <string>Metal Usado</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="agregarInstrumentoButton">
+     <property name="text">
+      <string>Agregar Instrumento</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="verStockButton">
+     <property name="text">
+      <string>Ver Stock</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="afinarButton">
+     <property name="text">
+      <string>Afinar</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
