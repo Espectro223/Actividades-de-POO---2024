@@ -16,7 +16,7 @@
 - Si la clave ingresada es `admin:1111`, se cierra Login y se muestra `Formulario`.
 - Si se ingresa otra clave se borrará el texto del `QLineEdit` de la clave.
 
-### Ejercicio 14
+### Ejercicio 15
 - Imagen de pizarron
 
 ### Ejercicio 16
